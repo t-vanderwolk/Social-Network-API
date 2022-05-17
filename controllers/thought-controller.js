@@ -4,7 +4,7 @@ const {
 } = require('../models');
 const thoughtController = {
 
-    //get all thoughts
+//GET all thoughts
     getAllThoughts(req, res) {
         Thought.find({})
             .then(dbThoughtData => res.json(dbThoughtData))
@@ -14,7 +14,7 @@ const thoughtController = {
             });
     },
 
-    //get one thought by id
+//GET one thought by id
     getThoughtById({
         params
     }, res) {
@@ -29,7 +29,7 @@ const thoughtController = {
             });
     },
 
-    //create thought
+//CREATE thought
     createThought({
         body
     }, res) {
@@ -60,7 +60,7 @@ const thoughtController = {
             .catch(err => res.json(err));
     },
 
-    //update thought by id
+//UPDATE thought by id
     updateThought({
         params,
         body
@@ -82,7 +82,7 @@ const thoughtController = {
             .catch(err => res.status(400).json(err));
     },
 
-    //delete thought
+//DELETE thought
     deleteThought({
         params
     }, res) {
@@ -101,7 +101,7 @@ const thoughtController = {
             .catch(err => res.status(400).json(err));
     },
 
-    //create reactions
+//CREATE reactions
     createReaction({
         params,
         body
@@ -127,7 +127,7 @@ const thoughtController = {
             .catch(err => res.json(err));
     },
 
-    //delete reaction
+//DELETE reaction
     deleteReaction({
         params
     }, res) {
