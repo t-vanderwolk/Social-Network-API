@@ -3,7 +3,7 @@
 
 const Body = () => {
     return(
-    <div className="body"> Tays Portfolio BODY </div>
+    <div className="body"> About Me </div>
     
     )}
     

@@ -2,7 +2,9 @@
 const Home = () => {
     return (
         <div className="home">
-             Taylor Vanderwolk</div>
+             <h1>Taylor Vanderwolk</h1>
+           </div>
+           
     )
 }
 

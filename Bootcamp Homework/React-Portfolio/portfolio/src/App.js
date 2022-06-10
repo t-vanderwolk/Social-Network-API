@@ -9,9 +9,9 @@ import './components/App.css';
 function App() {
   return (
     <div>
-  <Home />
   <Navbar />
-  <Body />
+  <Home />
+ <Body />
     </div>
    
   )

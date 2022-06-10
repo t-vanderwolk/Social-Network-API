@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+body{
+background-image: url(../pics/DELOITTE_REPORT-FEAT_IMG-1024x576.png);
+background-size: cover;
+}
+.navbar{
+  background-color: #61dafb;
+  
+
+  ;
+}
+.navbar-items {
+  display:flex;
+  justify-content: space-around;
+}
